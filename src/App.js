@@ -1,9 +1,9 @@
 import './App.css';
-import TodoApp from './components/ToDoApp';
+import Home from './components/ToDoApp';
 
 function App() {
   return (
-    <TodoApp />
+    <Home />
   );
 }
 

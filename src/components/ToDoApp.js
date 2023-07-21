@@ -1,8 +1,14 @@
-const TodoApp = () => (
-  <div>
-    <h1>Hello world!</h1>
-    <p>I am in a React Component!</p>
+import Header from './Header';
+import TodosLogic from './TodosLogic';
+
+const Home = () => (
+  <div className="todos">
+    <Header>
+      <h1>todos</h1>
+      <p>Items will persist in the browser local storage</p>
+    </Header>
+    <TodosLogic />
   </div>
 );
 
-export default TodoApp;
+export default Home;
