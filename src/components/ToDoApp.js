@@ -1,14 +1,13 @@
-import Header from './Header';
-import TodosLogic from './TodosLogic';
+import './ToDoApp.css';
 
-const Home = () => (
-  <div className="todos">
-    <Header>
-      <h1>todos</h1>
-      <p>Items will persist in the browser local storage</p>
-    </Header>
-    <TodosLogic />
-  </div>
-);
-
+function Home() {
+  return (
+    <div className="todos">
+      <header>
+        <h1>todos</h1>
+        <p>This is a to do list app where you can store your tasks</p>
+      </header>
+    </div>
+  );
+}
 export default Home;
