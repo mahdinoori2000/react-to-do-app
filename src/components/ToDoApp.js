@@ -1,4 +1,5 @@
 import './ToDoApp.css';
+import TodosLogic from './TodoLogic';
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
         <h1>todos</h1>
         <p>This is a to do list app where you can store your tasks</p>
       </header>
+      <TodosLogic />
     </div>
   );
 }
